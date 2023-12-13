@@ -5,7 +5,6 @@
 }
 /* reset */
 
-
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
     /* border: dashed 2px black; */
@@ -28,10 +27,11 @@
 
 h1{
     font-size: 50px;
-    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 p{
+    padding-top: 40px;
     font-size: 25px;
 }
 
@@ -45,6 +45,28 @@ h1, p{
 header, section {
     padding: 40px 20px;
 }
+
+/* sezione pulsanti download e open */
+.download-open{
+    text-align: center;
+    padding: 40px;
+}
+
+#download, #open, #accedi{
+    border-radius: 20px;
+    padding: 10px;
+    border: transparent;
+}
+
+#download, #open{
+    padding: 12px 30px 12px 30px;
+}
+
+#open{
+    background-color: #23272A;
+    color: white;
+}
+/* fine sezione pulsanti download e open */
 
 
 .bg-gray {
@@ -102,11 +124,6 @@ nav .login {
     padding: 10px;
 }
 
-#accedi{
-    border-radius: 16px;
-    padding: 10px;
-    border: transparent;
-}
 /* fine sezione navbar */
 
 
