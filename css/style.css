@@ -59,7 +59,9 @@ h1{
 
 p{
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 21px;
+    line-height: 1.7;
+    text-align:justify;
 }
 
 
@@ -80,7 +82,7 @@ header, section {
     padding: 40px;
 }
 
-#download, #open, #accedi, #registrati{
+#download, #open, #accedi{
     border-radius: 25px;
     padding: 13px 20px 13px 20px;
     border: transparent;
@@ -111,9 +113,9 @@ h2{
 }
 
 h3{
-    font-size: 20px; 
+    font-size: 17px;
+    line-height: 1.6; 
 }
-
 /* fine sezione righe con immagini e testo simili */
 
 
@@ -279,6 +281,9 @@ li, h6{
 }
 
 #registrati{
+    border-radius: 25px;
+    padding: 13px 20px 13px 20px;
+    border: transparent;
     background-color: #8EA1E1;
     color: white;
 }
