@@ -54,20 +54,16 @@ header, section {
 }
 
 #download, #open, #accedi, #registrati{
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 23px;
+    padding: 13px 20px 13px 20px;
     border: transparent;
 }
 
-#download, #open,{
-    padding: 12px 30px 12px 30px;
-}
     
-
 #open{
     background-color: #23272A;
     color: white;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 /* fine sezione pulsanti download e open */
 
