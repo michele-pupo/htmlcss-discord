@@ -5,6 +5,33 @@
 }
 /* reset */
 
+@font-face {
+    font-family: 'Whitney';
+    src: url('Whitney-Bold.woff2') format('woff2'),
+        url('Whitney-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('Whitney-Book.woff2') format('woff2'),
+        url('Whitney-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('Whitney-Light.woff2') format('woff2'),
+        url('Whitney-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
     font-family: sans-serif;
     line-height: 1.2;
@@ -54,9 +81,10 @@ header, section {
 }
 
 #download, #open, #accedi, #registrati{
-    border-radius: 23px;
+    border-radius: 25px;
     padding: 13px 20px 13px 20px;
     border: transparent;
+    font-size: 20px;
 }
 
     
@@ -99,6 +127,7 @@ a{
     text-decoration: none;
     color: white;
     padding: 0px 15px;
+    font-size: 15px;
 }
 
 nav .container > * {
@@ -111,6 +140,7 @@ nav .container {
 
 nav .logo {
     width: 100px;
+    margin-top: 10px;
 }
 
 
@@ -144,7 +174,6 @@ nav .login {
 
 #hero .container-small {
     height: 500px;
-    
 }
 /* fine sezione hero */
 
@@ -197,19 +226,22 @@ h4{
 
 
 /* sezione footer */
-
 footer {
     background-color: #23272a;
-    /* test */
-
+  
     padding-top: 8px;
 }
 
 h5{
     color: #7289DA;
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 40px;
     padding-bottom: 20px;
+}
+
+.footer-links{
+    width: 400px;
+    padding-right: 80px;
 }
 
 #logo-ita{
@@ -230,17 +262,16 @@ span{
 ul{
     list-style-type: none;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 h6{
     color: #7289DA;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .footer-column{
     padding-top: 40px;
-    padding-left: 100px;
 }
 
 li, h6{
@@ -251,7 +282,6 @@ li, h6{
     background-color: #8EA1E1;
     color: white;
 }
-
 
 
 footer #footer-top {
