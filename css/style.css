@@ -230,6 +230,12 @@ footer {
     padding-top: 8px;
 }
 
+h5{
+    color: #7289DA;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
 
 footer .container > * {
     border: dashed 2px white;
@@ -242,7 +248,7 @@ footer #footer-top {
 }
 
 footer #footer-top .footer-links {
-    background-color: #f08080;
+    /* background-color: #f08080; */
     height: 500px;
     width: 250px;
     /* test */
