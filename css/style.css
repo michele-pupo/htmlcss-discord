@@ -8,7 +8,7 @@
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
-    border: dashed 2px black;
+    /* border: dashed 2px black; */
     /* test */
 
     max-width: 1000px;
@@ -18,8 +18,7 @@
 }
 
 .container-small {
-    background-color: #ee82ee;
-    /* test */
+    background-color: transparent;
 
     max-width: 800px;
 
@@ -42,24 +41,22 @@ header, section {
 
 /* sezione navbar */
 nav {
-    background-color: #add8e6;
+    background-image: url(img/jumbo.png);
     /* test */
     padding: 10px ;
 }
 
 nav .container > * {
-    border: dashed 2px black;
+    /* border: dashed 2px black; */
     /* test */
 
     padding: 10px;
 }
 
 nav .container {
-    background-color: #daa520;
-    /* test */
+    background-color: transparent;
 
     display: flex;
-
 }
 
 nav .logo {
@@ -88,13 +85,15 @@ nav .login {
 
 /* sezione hero */
 #hero {
-    background-color: #00008b;
-    /* test */
-}
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+}    
+    
+
 
 #hero .container-small {
-    height: 300px;
-    /* test */
+    height: 500px;
+    
 }
 
 
