@@ -65,6 +65,7 @@ header, section {
 #open{
     background-color: #23272A;
     color: white;
+    margin-right: 20px;
 }
 /* fine sezione pulsanti download e open */
 
@@ -72,6 +73,21 @@ header, section {
 .bg-gray {
     background-color: #d3d3d3;
 }
+
+/* sezione righe con immagini e testo simili */
+h2 h3{
+    text-align: left;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 20px; 
+}
+
+/* fine sezione righe con immagini e testo simili */
 
 
 
@@ -151,23 +167,26 @@ nav .login {
 }
 
 .column-big {
-    background-color: #1e90ff;
+    /* background-color: #1e90ff;
     height: 400px;
-    border: dashed 2px black;
+    border: dashed 2px black; */
     /* test */
 
     /* width: 60%; */
     flex-grow: 1;
+    padding-top: 80px;
+    padding-right: 45px;
 }
 
 .column-small {
-    background-color: #ffc0cb;
+    /* background-color: #ffc0cb;
     height: 400px;
-    border: dashed 2px black;
+    border: dashed 2px black; */
     /* test */
 
     /* width: 40%; */
-    width: 400px;
+    width: auto;
+    padding-top: 110px;
 }
 
 
