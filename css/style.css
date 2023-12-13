@@ -234,11 +234,41 @@ h5{
     color: #7289DA;
     font-size: 30px;
     padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#logo-ita{
+    height: 16px;
+}
+
+span{
+    color: white;
+    font-size: 12px;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+}
+
+h6{
+    color: #7289DA;
+    font-size: 15px;
+}
+
+.footer-column{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+li, h6{
+    padding-top: 8px;
 }
 
 
 footer .container > * {
-    border: dashed 2px white;
+    /* border: dashed 2px white; */
     /* test */
 }
 
@@ -255,14 +285,14 @@ footer #footer-top .footer-links {
 }
 
 footer #footer-top .footer-column {
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
     /* test */
     
     flex-grow: 1;
 }
 
 footer #footer-bottom {
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     /* test */
 
     margin-top: 16px;
