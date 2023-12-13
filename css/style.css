@@ -26,6 +26,21 @@
     margin-right: auto;
 }
 
+h1{
+    font-size: 50px;
+    padding-bottom: 80px;
+}
+
+p{
+    font-size: 25px;
+}
+
+
+h1, p{
+    text-align: center;
+    color: white;
+}
+
 
 header, section {
     padding: 40px 20px;
@@ -42,8 +57,13 @@ header, section {
 /* sezione navbar */
 nav {
     background-image: url(img/jumbo.png);
-    /* test */
-    padding: 10px ;
+    padding: 20px ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
 }
 
 nav .container > * {
@@ -72,12 +92,20 @@ nav .nav-links ul {
     justify-content: center;
     list-style-type: none;
     gap: 12px;
+    padding: 8px;
 }
 
 
 nav .login {
     width: 100px;
     text-align: right;
+    padding: 10px;
+}
+
+#accedi{
+    border-radius: 16px;
+    padding: 10px;
+    border: transparent;
 }
 /* fine sezione navbar */
 
