@@ -55,7 +55,7 @@ header, section {
     padding: 40px;
 }
 
-#download, #open, #accedi{
+#download, #open, #accedi, #registrati{
     border-radius: 20px;
     padding: 10px;
     border: transparent;
@@ -272,6 +272,12 @@ li, h6{
     padding-top: 8px;
 }
 
+#registrati{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+
 
 footer .container > * {
     /* border: dashed 2px white; */
@@ -311,7 +317,7 @@ footer #footer-bottom {
 }
 
 footer #footer-bottom > * {
-    background-color: #ffb6c1;
+    /* background-color: #ffb6c1; */
     /* test */
 
     padding: 4px 8px;
