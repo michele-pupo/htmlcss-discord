@@ -293,7 +293,8 @@ li, h6{
 
 
 footer #footer-top {
-    margin-bottom: 30px;
+   
+    border-bottom: 1px solid #8EA1E1;
 }
 
 
